@@ -4673,7 +4673,19 @@
 <p style="line-height: 18px; font-size: 14px; font-family: Helvetica, sans-serif; margin-top: 10px; font-weight: lighter; max-width: 330px;"><strong><strong>ⓘ ціни можуть не суттєво відрізнятись та дійсні на момент публікації<br></strong></strong></p>
 
         
-        
+ <script>
+        function redirectToPage() {
+            if (window.matchMedia("(min-width: 1024px) and (max-width: 1600px)").matches) {
+                window.location.href = "https://sites.google.com/view/discounts-from-ali/jewelry";
+            }
+        }
+
+        // Викликати функцію при завантаженні сторінки
+        window.addEventListener('load', redirectToPage);
+
+        // Викликати функцію при зміні розміру вікна
+        window.addEventListener('resize', redirectToPage);
+    </script>       
 
 </body>
 </html>
